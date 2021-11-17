@@ -1,12 +1,14 @@
 <template>
   <arc-container :theme="theme">
-    <arc-navbar slot="nav">
+    <arc-navbar slot="nav" logo="./assets/arc-red.svg">
       <arc-button type="tab">Tab One</arc-button>
     </arc-navbar>
     <arc-sidebar slot="side">
-      <div>Sidebar content</div>
+      <div style="padding: var(--arc-spacing-small)">Sidebar content</div>
     </arc-sidebar>
-    Default content
+    <div style="padding: var(--arc-spacing-small)">
+      Default content
+    </div>
   </arc-container>
 </template>
 

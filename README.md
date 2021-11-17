@@ -11,5 +11,5 @@ This will install all the required packages.
 ## Running the application
 First make sure that [Vue](https://vuejs.org/) is installed.
 
-Type `npm serve` in the console to run the Vue server.
+Type `npm run serve` in the console to run the Vue server.
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
